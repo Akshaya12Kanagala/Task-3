@@ -25,4 +25,27 @@ sudo docker run -d -p 8080:9392 --name openvas registry.community.greenbone.net/
 
 This command runs the container in detached mode (-d), maps port 8080 on your host to port 9392 in the container, and names the container openvas.
 
-### Step 5 : 
+### Step 5 : Accessing the OpenVAS Web Interface
+After successfully running the OpenVAS container in Step 4: <br>
+sudo docker run -d -p 8080:9392 --name openvas registry.community.greenbone.net/community/gvmd:stable
+I attempted to access the OpenVAS / GVM web interface via: <br>
+http://localhost:8080<br>
+or<br>
+https://localhost:8080
+
+### Issues faced:
+#### Port Mapping and Service Availability<br>
+Although the container is running, the web interface did not load.
+#### Progress Summary
+✅ Step 1: Updated Ubuntu successfully.
+✅ Step 2: Installed Docker and verified it works.
+✅ Step 3: Pulled the official Greenbone Community Edition Docker image.
+✅ Step 4: Ran the OpenVAS container successfully.
+⚠️ Step 5 and beyond: Unable to access the web interface to configure scans due to container service initialization issues and port/SSL complexities.
+
+Additional Notes/Nessus Attempt
+I also attempted to perform this vulnerability scan using Nessus Essentials on Windows.
+I successfully downloaded and installed Nessus Essentials on my Windows PC.
+However, I encountered difficulties in understanding the steps to proceed, including how to create a scan target, configure the scan, and interpret the results.
+##### Due to this, I was unable to complete the task using Nessus.
+I apologize for not completing the Nessus-based scan. With proper guidance or step-by-step instructions, I am confident that I can successfully set up Nessus, perform the vulnerability scan, and analyze the results.
