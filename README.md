@@ -37,15 +37,15 @@ https://localhost:8080
 #### Port Mapping and Service Availability<br>
 Although the container is running, the web interface did not load.
 #### Progress Summary
-✅ Step 1: Updated Ubuntu successfully.
-✅ Step 2: Installed Docker and verified it works.
-✅ Step 3: Pulled the official Greenbone Community Edition Docker image.
-✅ Step 4: Ran the OpenVAS container successfully.
-⚠️ Step 5 and beyond: Unable to access the web interface to configure scans due to container service initialization issues and port/SSL complexities.
+✅ Step 1: Updated Ubuntu successfully.<br>
+✅ Step 2: Installed Docker and verified it works.<br>
+✅ Step 3: Pulled the official Greenbone Community Edition Docker image.<br>
+✅ Step 4: Ran the OpenVAS container successfully.<br>
+⚠️ Step 5 and beyond: Unable to access the web interface to configure scans due to container service initialization issues and port/SSL complexities.<br>
 
-Additional Notes/Nessus Attempt
-I also attempted to perform this vulnerability scan using Nessus Essentials on Windows.
-I successfully downloaded and installed Nessus Essentials on my Windows PC.
-However, I encountered difficulties in understanding the steps to proceed, including how to create a scan target, configure the scan, and interpret the results.
+Additional Notes/Nessus Attempt<br>
+I also attempted to perform this vulnerability scan using Nessus Essentials on Windows.<br>
+I successfully downloaded and installed Nessus Essentials on my Windows PC.<br>
+However, I encountered difficulties in understanding the steps to proceed, including how to create a scan target, configure the scan, and interpret the results.<br>
 ##### Due to this, I was unable to complete the task using Nessus.
 I apologize for not completing the Nessus-based scan. With proper guidance or step-by-step instructions, I am confident that I can successfully set up Nessus, perform the vulnerability scan, and analyze the results.
