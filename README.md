@@ -10,10 +10,8 @@ Scanning a host PC can potentially expose sensitive files or create system chang
 sudo apt update && sudo apt upgrade -y
 
 ### Step 2 : Installing OpenVAS Using Docker on Ubuntu Seed VM
-sudo apt update
-
-sudo apt install -y docker.io
-
-sudo systemctl enable --now docker
-Verification
+sudo apt update <br>
+sudo apt install -y docker.io <br>
+sudo systemctl enable --now docker <br>
+Verification 
 docker --version
