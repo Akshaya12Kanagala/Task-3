@@ -13,5 +13,9 @@ sudo apt update && sudo apt upgrade -y
 sudo apt update <br>
 sudo apt install -y docker.io <br>
 sudo systemctl enable --now docker <br>
-Verification 
+Verification <br>
 docker --version
+
+### Step 3 : Pull the Official Greenbone Community Edition Docker Image
+Greenbone provides official Docker images for the Community Edition. These images are self-hosted and maintained by Greenbone.
+sudo docker pull registry.community.greenbone.net/community/gvmd:stable
