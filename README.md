@@ -19,3 +19,6 @@ docker --version
 ### Step 3 : Pull the Official Greenbone Community Edition Docker Image
 Greenbone provides official Docker images for the Community Edition. These images are self-hosted and maintained by Greenbone. <br>
 sudo docker pull registry.community.greenbone.net/community/gvmd:stable
+
+### Step 4 : Run the OpenVAS Container
+sudo docker run -d -p 8080:9392 --name openvas registry.community.greenbone.net/community/gvmd:stable
