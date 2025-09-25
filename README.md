@@ -22,3 +22,5 @@ sudo docker pull registry.community.greenbone.net/community/gvmd:stable
 
 ### Step 4 : Run the OpenVAS Container
 sudo docker run -d -p 8080:9392 --name openvas registry.community.greenbone.net/community/gvmd:stable
+
+This command runs the container in detached mode (-d), maps port 8080 on your host to port 9392 in the container, and names the container openvas.
